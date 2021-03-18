@@ -137,7 +137,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.check[data-v-5700abe2] {\r\n  opacity: 1 !important;\n}\n.form-check .form-check-label[data-v-5700abe2] {\r\n  cursor: default !important;\n}\r\n", ""]);
+exports.push([module.i, "\n.check[data-v-5700abe2] {\n  opacity: 1 !important;\n}\n.form-check .form-check-label[data-v-5700abe2] {\n  cursor: default !important;\n}\n", ""]);
 
 // exports
 

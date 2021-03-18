@@ -76,22 +76,62 @@ class PermissionsTableSeeder extends Seeder
             ],
             [
                 'id'    => 17,
-                'title' => 'company_create',
+                'title' => 'city_create',
             ],
             [
                 'id'    => 18,
-                'title' => 'company_edit',
+                'title' => 'city_edit',
             ],
             [
                 'id'    => 19,
-                'title' => 'company_show',
+                'title' => 'city_show',
             ],
             [
                 'id'    => 20,
-                'title' => 'company_delete',
+                'title' => 'city_delete',
             ],
             [
                 'id'    => 21,
+                'title' => 'city_access',
+            ],
+            [
+                'id'    => 22,
+                'title' => 'category_create',
+            ],
+            [
+                'id'    => 23,
+                'title' => 'category_edit',
+            ],
+            [
+                'id'    => 24,
+                'title' => 'category_show',
+            ],
+            [
+                'id'    => 25,
+                'title' => 'category_delete',
+            ],
+            [
+                'id'    => 26,
+                'title' => 'category_access',
+            ],
+            [
+                'id'    => 27,
+                'title' => 'company_create',
+            ],
+            [
+                'id'    => 28,
+                'title' => 'company_edit',
+            ],
+            [
+                'id'    => 29,
+                'title' => 'company_show',
+            ],
+            [
+                'id'    => 30,
+                'title' => 'company_delete',
+            ],
+            [
+                'id'    => 31,
                 'title' => 'company_access',
             ],
         ];

@@ -162,7 +162,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\na[data-v-093ac881] {\r\n  font-size: 13px;\r\n  font-weight: 500;\r\n  color: #202124;\n}\na[data-v-093ac881]:hover {\r\n  color: #9c27b0;\r\n  text-decoration: underline;\n}\r\n", ""]);
+exports.push([module.i, "\na[data-v-093ac881] {\n  font-size: 13px;\n  font-weight: 500;\n  color: #202124;\n}\na[data-v-093ac881]:hover {\n  color: #9c27b0;\n  text-decoration: underline;\n}\n", ""]);
 
 // exports
 
