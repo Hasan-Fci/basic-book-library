@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"b89e2faeecc0a8769771","1":"5ccc8c8454b925f9beda","2":"d8433139cf741f508837","3":"410d00e047f9472220f6","4":"4f61eda1438bcc681129","5":"d620c15352bda7758f87","6":"fc9af947d5797f9fed11","7":"b93c611f58c9cd13717d","8":"3b53ab6eb0665b402302","9":"cfbd81c6eab03728d36b","10":"f5b8cb03217d6c23141a","11":"abc105075abccde4107a","12":"0ee87b89df66fb6dfc6a","13":"36b250ef6a4cf87bd43d","14":"daa71a71898f7f7c7055","15":"0c7f605209dca13bf290","16":"8514dd01f94e5c4aefcc","17":"dc30cf1e3525c9195be0","18":"b5470f261812681748c7","19":"b892f0530bd3c6114e22","20":"167af7797c855febf1a3","21":"683e99c4fff3f7fb59af","22":"d26b779944763ad1c54c","23":"e2e367b9527f932e101a","24":"fb454e5015ada87bc050","25":"5aa9b36e44aad3011136","26":"1c07736a04c01c89ba0a","27":"3587aea22bd332993d7f","28":"94b3672d45c8a299575c","29":"044561a491123d1d4607"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"cc5661ee4474d7361054","1":"661885ae0338a6589641","2":"fa4fd56fba3b269a2b6b","3":"410d00e047f9472220f6","4":"6f0076f9eabe7f194839","5":"36bc601c6071c39a5471","6":"31bb991cc35c290956d2","7":"956dd71e9e98463d3bc4","8":"aca8b6ead8709f069d8b","9":"66b25335e2e9ed135fe3","10":"d5bb4f3cd3875e698f9d","11":"f30dcc6ae9a438462836","12":"93ef8d68d3a3e3de1f4b","13":"20559863503b46b1d5f6","14":"57d8bac2bf8074606e35","15":"47937630b01700b920f9","16":"cae754520fead88a4c3a","17":"c5159d0e9c2209947ba6","18":"49d3ac103347bf2891d2","19":"d007b476394fe1178dbe","20":"125726e4a4edf261d71a","21":"2c2ebf2bfee787e73c54","22":"738e354aee9a1a4d1a60","23":"9fa189c38ef11e8f4c2f","24":"5cf1852942fa4b3a5493","25":"91bfef0d3b02257f703a","26":"fd73d8fcbe255e0ea93a","27":"ed1d2f1aa7a74604881f","28":"e27f6a2748e6ea248678","29":"0c51e539dddfc5dc5234"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -3756,7 +3756,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     backgroundImage: {
       type: String,
-      "default": '/md/img/sidebar-1.jpg'
+      "default": ''
     },
     imgLogo: {
       type: String,
@@ -4141,7 +4141,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n@media screen and (min-width: 991px) {\n.nav-mobile-menu {\n    display: none;\n}\n}\n", ""]);
+exports.push([module.i, "\n@media screen and (min-width: 991px) {\n.nav-mobile-menu {\r\n    display: none;\n}\n}\r\n", ""]);
 
 // exports
 
@@ -4160,7 +4160,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.checkbox-radios[data-v-aed33b06] {\n  padding-top: 7px;\n  padding-bottom: 7px;\n}\n", ""]);
+exports.push([module.i, "\n.checkbox-radios[data-v-aed33b06] {\r\n  padding-top: 7px;\r\n  padding-bottom: 7px;\n}\r\n", ""]);
 
 // exports
 
@@ -51120,11 +51120,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _globalComponents__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./globalComponents */ "./resources/adminapp/js/globalComponents.js");
 /* harmony import */ var _globalDirectives__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./globalDirectives */ "./resources/adminapp/js/globalDirectives.js");
 /* harmony import */ var _mixins_global__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mixins/global */ "./resources/adminapp/js/mixins/global.js");
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
 __webpack_require__(/*! ./bootstrap */ "./resources/adminapp/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
@@ -51146,12 +51141,6 @@ Vue.prototype.$jquery = $;
 Vue.use(_globalComponents__WEBPACK_IMPORTED_MODULE_3__["default"]);
 Vue.use(_globalDirectives__WEBPACK_IMPORTED_MODULE_4__["default"]);
 Vue.use(_mixins_global__WEBPACK_IMPORTED_MODULE_5__["default"]);
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
 var app = new Vue({
   el: '#app',
   render: function render(h) {
@@ -52473,9 +52462,6 @@ var routes = [{
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _casl_ability__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @casl/ability */ "./node_modules/@casl/ability/dist/es5m/index.js");
 
-/**
- * Defines how to detect object's type: https://stalniy.github.io/casl/v4/en/guide/define-rules
- */
 
 var _AbilityBuilder = new _casl_ability__WEBPACK_IMPORTED_MODULE_0__["AbilityBuilder"](_casl_ability__WEBPACK_IMPORTED_MODULE_0__["Ability"]),
     can = _AbilityBuilder.can,
@@ -54299,8 +54285,8 @@ var debug = "development" !== 'production';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Applications/MAMP/htdocs/test/resources/adminapp/js/app.js */"./resources/adminapp/js/app.js");
-module.exports = __webpack_require__(/*! /Applications/MAMP/htdocs/test/resources/adminapp/sass/app.scss */"./resources/adminapp/sass/app.scss");
+__webpack_require__(/*! F:\New folder\basic-book-library\resources\adminapp\js\app.js */"./resources/adminapp/js/app.js");
+module.exports = __webpack_require__(/*! F:\New folder\basic-book-library\resources\adminapp\sass\app.scss */"./resources/adminapp/sass/app.scss");
 
 
 /***/ })

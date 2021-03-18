@@ -49,7 +49,7 @@ export default {
     },
     backgroundImage: {
       type: String,
-      default: '/md/img/sidebar-1.jpg'
+      default: ''
     },
     imgLogo: {
       type: String,

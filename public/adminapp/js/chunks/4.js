@@ -93,21 +93,7 @@ __webpack_require__.r(__webpack_exports__);
           gate: 'user_access'
         }]
       }, {
-        title: 'Cities',
-        icon: 'table_view',
-        path: {
-          name: 'cities.index'
-        },
-        gate: 'city_access'
-      }, {
-        title: 'Categories',
-        icon: 'table_view',
-        path: {
-          name: 'categories.index'
-        },
-        gate: 'category_access'
-      }, {
-        title: 'Companies',
+        title: 'Books',
         icon: 'table_view',
         path: {
           name: 'companies.index'
@@ -197,7 +183,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.fade-enter-active[data-v-3b48bf40],\n.fade-leave-active[data-v-3b48bf40] {\n  transition: opacity 0.1s;\n}\n.fade-enter[data-v-3b48bf40],\n.fade-leave-to[data-v-3b48bf40] {\n  opacity: 0;\n}\n", ""]);
+exports.push([module.i, "\n.fade-enter-active[data-v-3b48bf40],\r\n.fade-leave-active[data-v-3b48bf40] {\r\n  transition: opacity 0.1s;\n}\n.fade-enter[data-v-3b48bf40],\r\n.fade-leave-to[data-v-3b48bf40] {\r\n  opacity: 0;\n}\r\n", ""]);
 
 // exports
 

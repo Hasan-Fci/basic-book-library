@@ -60,19 +60,7 @@ export default {
           ]
         },
         {
-          title: 'Cities',
-          icon: 'table_view',
-          path: { name: 'cities.index' },
-          gate: 'city_access'
-        },
-        {
-          title: 'Categories',
-          icon: 'table_view',
-          path: { name: 'categories.index' },
-          gate: 'category_access'
-        },
-        {
-          title: 'Companies',
+          title: 'Books',
           icon: 'table_view',
           path: { name: 'companies.index' },
           gate: 'company_access'
